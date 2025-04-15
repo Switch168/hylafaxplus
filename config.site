@@ -84,8 +84,8 @@
 #
 #DEFVRES="196"				# default vertical res for outbound fax
 #FILLORDER="MS2LSB"			# bit order of cpu (MSB2LSB/LSB2MSB)
-#FAXGID="uucp"				# group ID for fax user
-#FAXUID="uucp"				# user ID for fax user
+FAXGID="root"				# group ID for fax user
+FAXUID="root"				# user ID for fax user
 #PAGESIZE="North American Letter"	# default page size
 #SYSGID="sys"				# group ID for system installs
 #SYSUID="bin"				# user ID for system installs
